@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle&family=Open+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="card">
+        <h2 class="heading">Weather App</h2>
+      <div class="search">
+        <input type="text" class="search-bar" placeholder="Search" />
+        <button><em class="fa fa-search fa-lg"></em></button>
+      </div>
+      <div class="weather loading">
+        <h2 class="city">Weather in Delhi</h2>
+        <h1 class="temp">30°C</h1>
+        <div class="flex">
+          <img
+            src="https://openweathermap.org/img/wn/04n.png"
+            alt=""
+            class="icon"
+          />
+          <div class="description">Cloudy weather</div>
+        </div>
+        <div class="humidity">Humidity is : 60%</div>
+        <div class="wind">Wind Speed is : 40km/hr</div>
+      </div>
+    </div>
+  </body>
+</html>
